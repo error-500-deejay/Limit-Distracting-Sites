@@ -1,0 +1,79 @@
+<html>
+  <!--Setting page-->
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="timerSetting.css" />
+    <title>Limit Distracting Website</title>
+  </head>
+  <body>
+    <h1 style="text-align: center; margin: 20px; color: white">
+      <span style="font-size: 50px">&#9203;</span> Limit Website Usage
+    </h1>
+    <div
+      style="
+        text-align: center;
+        margin: 20px 15%;
+        padding: 50px 30px;
+        border-radius: 10px;
+        border: 2px solid #b5b1b1;
+      "
+    >
+      <!--button to enable disable limit-->
+      <div class="info-div">(Enable / Disable the site Limit)</div>
+      <label for="cars">Site Limit</label>
+      <span style="font-size: 18px"> &#128274;</span>
+      <select name="cars" id="website-enable-button">
+        <option value="true">Enable</option>
+        <option value="false">Disable</option>
+      </select>
+      <br />
+      <!--Take Url of the siite-->
+      <div class="info-div">
+        (Enter complete URL of the site you wish to limit usage (Pasting the URL
+        is recommended))
+      </div>
+      <input type="text" id="website-url" />
+      <label for="cars">URL</label>
+      <span style="font-size: 18px"> &#128279;</span>
+      <br /><br />
+      <!--Take the time for acess limti -->
+      <div class="info-div">( Set Website Access Time Limit)</div>
+      <input type="number" value="0" id="website-time-hrs" />
+      <label for="cars">Hrs </label>
+      <span style="font-size: 20px"> &#9201;</span>
+      <input type="number" value="0" id="website-time-min" />
+      <label for="cars">Min </label>
+      <span style="font-size: 20px"> &#9201;</span>
+      <input type="number" value="0" id="website-time-sec" />
+      <label for="cars">Sec </label>
+      <span style="font-size: 20px"> &#9201;</span>
+
+      <br /><br />
+      <!--show Timer or not-->
+      <div class="info-div">( Show Time Spent on that Site )</div>
+      <span style="font-size: 20px"> &#9200;</span>
+      <label for="cars">Display Timer Clock</label>
+      <input
+        type="radio"
+        id="website-displayClockY"
+        name="website-displayClock"
+        value="true"
+        checked
+      />
+      <label for="website-displayClockY">Yes</label>
+      <input
+        type="radio"
+        id="website-displayClockN"
+        name="website-displayClock"
+        value="false"
+      />
+      <label for="website-displayClockN">No</label><br />
+      <br />
+      <input type="submit" value="Submit" id="setTimerLimit" />
+    </div>
+    <br /><br />
+    <div id="displayBlockSites" style="overflow: auto"></div>
+    <!--Her eexisitng block site are displayed-->
+    <script src="timerSetting.js"></script>
+  </body>
+</html>

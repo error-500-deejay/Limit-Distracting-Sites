@@ -1,0 +1,62 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  min-width: 600px;
+}
+.website-deleteButton {
+  padding: 6px 9px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.info-div {
+  margin: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+.website-time-list-input {
+  width: 50%;
+}
+input {
+  outline-color: slategray;
+  padding: 7px;
+  border-radius: 6px;
+}
+
+body {
+  font-family: "Segoe UI";
+  background: rgb(46, 196, 254);
+  background: linear-gradient(
+    60deg,
+    rgba(46, 196, 254, 1) 0%,
+    rgba(122, 106, 255, 1) 44%,
+    rgba(169, 50, 254, 1) 100%
+  );
+}
+label {
+  margin: 5px 10px;
+  font-family: "Segoe UI";
+  font-weight: 500;
+  color: white;
+}
+table {
+  width: 100%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
