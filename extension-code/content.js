@@ -115,7 +115,7 @@
       `position: fixed;z-index:2000;top: 0px;right: 0px;left: 0px;bottom: 0px;background: #00000069;`
     );
     timerModalLayoutDiv.setAttribute(`class`, `limiterModalMain fade`);
-    timerModalLayoutDiv.innerHTML = ` <div style="margin: 15% 25%;width: 40%;text-align: center;/* height: auto; */border: 1px solid;padding: 20px;border-radius: 5px;background: white;font-size: 20px;font-family: Segoe UI;" segoe="" class="limiterModalBody">
+    timerModalLayoutDiv.innerHTML = ` <div style="margin: 15% 25%;width: 40%;text-align: center;color:black;/* height: auto; */border: 1px solid;padding: 20px;border-radius: 5px;background: white;font-size: 20px;font-family: Segoe UI;" segoe="" class="limiterModalBody">
               <div style="padding: 10px;font-size: 20px;color:black;font-family: Segoe UI;" segoe="" class="limiterModalHeader">
               <span style='font-size:50px;'>&#9203;</span> Daily Limit Reached!
               </div>

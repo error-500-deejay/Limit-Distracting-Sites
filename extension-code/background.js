@@ -31,6 +31,7 @@ function getDatFromLocalStorage(request, sender, sendResponse) {
         blockurlarr: [],
         message: "",
         displayclockInterval: 5,
+        isLimitAllowed: true,
       };
     }
     datajson = datajsonin;

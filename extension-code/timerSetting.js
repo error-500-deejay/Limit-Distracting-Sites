@@ -2,6 +2,7 @@ let datajson = {
   blockurlarr: [{ url: "localhost", time: 8, displayclock: true }],
   message: "",
   displayclockInterval: 5,
+  isLimitAllowed: true,
 };
 
 //chrome.storage.local.set({ isPaused: false });
@@ -26,6 +27,7 @@ function getWebBlockJSon() {
           blockurlarr: [],
           message: "",
           displayclockInterval: 5,
+          isLimitAllowed: true,
         };
       } else {
         datajson = JSON.parse(datajson);
@@ -200,7 +202,7 @@ async function displayBlockSites() {
   let datajson = await getWebBlockJSon();
 
   document.getElementById("website-enable-button").value =
-    datajson.isLimitAllowed == true ? "true" : "false";
+    datajson.isLimitAllowed == false ? "false" : "true";
 
   let blocksitearr = datajson.blockurlarr;
   let tableTemplate;
