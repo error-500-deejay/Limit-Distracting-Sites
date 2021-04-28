@@ -16,7 +16,9 @@
   "action": {
     "default_title": "Limit Distracting Website",
     "default_icon": {
+      "16": "icons/16icon.png",
       "32": "icons/32icon.png",
+      "48": "icons/48icon.png",
       "72": "icons/72icon.png",
       "128": "icons/128icon.png",
       "512": "icons/512icon.png"
@@ -24,7 +26,9 @@
     "default_popup": "popup.html"
   },
   "icons": {
+    "16": "icons/16icon.png",
     "32": "icons/32icon.png",
+    "48": "icons/48icon.png",
     "72": "icons/72icon.png",
     "128": "icons/128icon.png",
     "512": "icons/512icon.png"
